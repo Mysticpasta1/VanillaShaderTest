@@ -1,33 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "vts",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Vanilla Test Shader",
+	"description": "",
 	"authors": [
-		"Me!"
+		"Mysticpasta1"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/vts/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.mystic.VanillaTestShader"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.mystic.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"vts.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",
