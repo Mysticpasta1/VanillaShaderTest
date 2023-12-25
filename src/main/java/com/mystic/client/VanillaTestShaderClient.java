@@ -1,4 +1,4 @@
-package com.mystic;
+package com.mystic.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
